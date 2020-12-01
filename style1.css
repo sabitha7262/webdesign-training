@@ -1,0 +1,40 @@
+
+*{
+    box-sizing: border-box;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 10px;
+}
+#div {
+    padding: 5px;
+}
+.topnav{
+    text-align: center;
+    word-spacing: 5px;
+}
+body{
+    background: rgb(125,255,227);
+    background: linear-gradient(0deg, rgba(125,255,227,1) 0%, rgba(246,195,230,1) 93%);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    margin: 1rem;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+}
+.end{
+    text-align: center;
+}
+
+@media(max-width:600px){
+    .images{
+        flex-direction: column;
+        height: auto;
+    }
+}
